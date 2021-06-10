@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            />
+        <item android:id="@+id/aboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_people"
+            />
+        <item android:id="@+id/contactUs"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_contact"
+            />
+        <item android:id="@+id/testing"
+            android:title="سُورَة الْعَصْر"
+            android:icon="@drawable/ic_read"
+            />
+    </group>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="8sp"
+        android:layout_margin="8sp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="8sp"
+            android:layout_margin="8sp"
+            android:id="@+id/name"
+            android:text="carName"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="8sp"
+            android:layout_margin="8sp"
+            android:text="CarMode;"
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="8sp"
+            android:layout_margin="8sp"
+            android:text="CarColor"
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="8sp"
+            android:layout_margin="8sp"
+            android:text="Car Modification Stage"
+            android:id="@+id/stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
